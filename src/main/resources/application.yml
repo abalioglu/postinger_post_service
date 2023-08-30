@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: postinger-post-service
+  main:
+    web-application-type: servlet
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/postinger
+
